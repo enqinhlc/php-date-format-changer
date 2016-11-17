@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Copyright 2016 Engin Halaç <enginhalac@gmail.com>
+ *
+ * @author  Engin Halaç <enginhalac@gmail.com>
+ * @url https://github.com/enqinhlc/php-date-format-changer
+ * @version 1.0
+ */
 
 class DateFormatChanger {
 
@@ -101,14 +108,14 @@ class DateFormatChanger {
 }
 
 
-$dfc = new DateFormatChanger();
-$dfc->setDate('11/08/2016');
-$dfc->setFormat('d/m/y'); // default
-$dfc->setSeperator('/'); // default
-$dfc->setReturnFormat('dmy');
-$dfc->setReturnSeperator('-'); // default
-echo $dfc->getDate() . "\n"; // 11-08-2016
-$dfc->setReturnSeperator('/');
-echo $dfc->getDate() . "\n"; // 11/08/2016
+# $dfc = new DateFormatChanger();
+# $dfc->setDate('11/08/2016');
+# $dfc->setFormat('d/m/y'); // default
+# $dfc->setSeperator('/'); // default
+# $dfc->setReturnFormat('dmy');
+# $dfc->setReturnSeperator('-'); // default
+# echo $dfc->getDate() . "\n"; // 11-08-2016
+# $dfc->setReturnSeperator('/');
+# echo $dfc->getDate() . "\n"; // 11/08/2016
 
 ?>
